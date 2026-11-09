@@ -34,8 +34,8 @@ function askEightBall() {
 
 
   // Get random #
-
-
+  let randomNumber = Math.floor(Math.random() * 8);
+  console.log("randomNumber:", randomNumber);
 
 
   // Get  Magic 8balls answer
